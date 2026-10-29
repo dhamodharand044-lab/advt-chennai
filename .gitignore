@@ -1,0 +1,22 @@
+# R history and environment files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*~
+
+# Shiny temporary uploads
+temp/
+inst/tmp/
+
+# Custom local user CSV files (keep synthetic sample, ignore sensitive raw CSV drops if needed)
+# Uncomment the line below if raw data files should not be committed to GitHub:
+# data/*.csv
+# !data/synthetic_demonstration_data.csv
